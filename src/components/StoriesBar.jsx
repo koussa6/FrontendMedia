@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { dummyStoriesData } from '../assets/assets';
 import { Plus } from 'lucide-react';
 import moment from 'moment';
-import StoryModal from './storyModal';
+import StoryModal from './StoryModal';
 import StoryViewer from './StoryViewer';
 import { useAuth } from '@clerk/clerk-react';
 import api from '../api/axios';
